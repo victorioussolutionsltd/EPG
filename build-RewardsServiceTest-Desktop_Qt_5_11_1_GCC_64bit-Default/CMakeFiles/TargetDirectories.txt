@@ -1,0 +1,3 @@
+/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/CMakeFiles/rebuild_cache.dir
+/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/CMakeFiles/RewardsServiceTest.dir
+/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/CMakeFiles/edit_cache.dir

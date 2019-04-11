@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9e62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9e62.dir/build.make CMakeFiles/cmTC_d9e62.dir/build
+make[1]: Entering directory '/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9e62.dir/CheckSymbolExists.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-8     -o CMakeFiles/cmTC_d9e62.dir/CheckSymbolExists.cxx.o -c /home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d9e62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9e62.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-8       -rdynamic CMakeFiles/cmTC_d9e62.dir/CheckSymbolExists.cxx.o  -o cmTC_d9e62 
+CMakeFiles/cmTC_d9e62.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d9e62.dir/build.make:97: recipe for target 'cmTC_d9e62' failed
+make[1]: *** [cmTC_d9e62] Error 1
+make[1]: Leaving directory '/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d9e62/fast' failed
+make: *** [cmTC_d9e62/fast] Error 2
+
+File /home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f42cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f42cf.dir/build.make CMakeFiles/cmTC_f42cf.dir/build
+make[1]: Entering directory '/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f42cf.dir/CheckFunctionExists.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-8    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f42cf.dir/CheckFunctionExists.cxx.o -c /home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_f42cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f42cf.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-8   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f42cf.dir/CheckFunctionExists.cxx.o  -o cmTC_f42cf -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f42cf.dir/build.make:97: recipe for target 'cmTC_f42cf' failed
+make[1]: *** [cmTC_f42cf] Error 1
+make[1]: Leaving directory '/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f42cf/fast' failed
+make: *** [cmTC_f42cf/fast] Error 2
+
+

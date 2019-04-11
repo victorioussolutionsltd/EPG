@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RewardsServiceTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RewardsServiceTest">
+				<Option output="/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/RewardsServiceTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_LANGUAGE_CXX11"/>
+					<Add directory="/home/parallels/workspace/EPGTest/googletest/googletest"/>
+					<Add directory="/home/parallels/workspace/EPGTest/googletest/googletest/include"/>
+					<Add directory="/home/parallels/workspace/EPGTest/googletest/googlemock"/>
+					<Add directory="/home/parallels/workspace/EPGTest/googletest/googlemock/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 RewardsServiceTest"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RewardsServiceTest/fast">
+				<Option output="/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/RewardsServiceTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_LANGUAGE_CXX11"/>
+					<Add directory="/home/parallels/workspace/EPGTest/googletest/googletest"/>
+					<Add directory="/home/parallels/workspace/EPGTest/googletest/googletest/include"/>
+					<Add directory="/home/parallels/workspace/EPGTest/googletest/googlemock"/>
+					<Add directory="/home/parallels/workspace/EPGTest/googletest/googlemock/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 RewardsServiceTest/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/parallels/workspace/EPGTest/build-RewardsServiceTest-Desktop_Qt_5_11_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/parallels/workspace/EPGTest/RewardsServiceTest/RewardsService.cpp">
+			<Option target="RewardsServiceTest"/>
+		</Unit>
+		<Unit filename="/home/parallels/workspace/EPGTest/RewardsServiceTest/RewardsService.h">
+			<Option target="RewardsServiceTest"/>
+		</Unit>
+		<Unit filename="/home/parallels/workspace/EPGTest/RewardsServiceTest/main.cpp">
+			<Option target="RewardsServiceTest"/>
+		</Unit>
+		<Unit filename="/home/parallels/workspace/EPGTest/RewardsServiceTest/tst_rewardsservicetest.h">
+			<Option target="RewardsServiceTest"/>
+		</Unit>
+		<Unit filename="/home/parallels/workspace/EPGTest/googletest/googlemock/src/gmock-all.cc">
+			<Option target="RewardsServiceTest"/>
+		</Unit>
+		<Unit filename="/home/parallels/workspace/EPGTest/googletest/googletest/src/gtest-all.cc">
+			<Option target="RewardsServiceTest"/>
+		</Unit>
+		<Unit filename="/home/parallels/workspace/EPGTest/RewardsServiceTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
